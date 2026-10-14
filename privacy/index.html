@@ -17,6 +17,7 @@ body { margin: 0; background: var(--paper); color: var(--ink);
 main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
 nav { display: flex; justify-content: space-between; gap: 16px; font-size: 15px;
   margin-bottom: 24px; }
+nav span { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 12px; }
 a { color: inherit; text-decoration-color: var(--tint); text-underline-offset: 2px; }
 h1 { font-size: 28px; line-height: 1.2; margin: 0 0 24px; }
 h2 { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
@@ -29,7 +30,7 @@ ul { padding-left: 20px; }
 </head>
 <body>
 <main>
-<nav><a href="../">Life</a><a href="../tr/privacy/" lang="tr">Türkçe</a></nav>
+<nav><a href="../">Life</a><span><a href="../tr/privacy/" lang="tr">Türkçe</a> <a href="../de/privacy/" lang="de">Deutsch</a></span></nav>
 <h1>Privacy Policy</h1>
 <section id="short">
 <h2>The Short Version</h2>

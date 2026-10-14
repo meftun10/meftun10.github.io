@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sicherheit · Life</title>
+<style>
+:root { color-scheme: light dark; --ink: #1c1c1e; --quiet: #6e6e73; --paper: #f2f2f7;
+  --card: #ffffff; --rule: #d1d1d6; --tint: #6c6c70; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #f3f3f5; --quiet: #98989f; --paper: #000000; --card: #1c1c1e;
+    --rule: #38383a; --tint: #aeaeb2; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+nav { display: flex; justify-content: space-between; gap: 16px; font-size: 15px;
+  margin-bottom: 24px; }
+nav span { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 12px; }
+a { color: inherit; text-decoration-color: var(--tint); text-underline-offset: 2px; }
+h1 { font-size: 28px; line-height: 1.2; margin: 0 0 24px; }
+h2 { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--quiet); margin: 28px 0 8px 4px; }
+section > div { background: var(--card); border-radius: 22px; padding: 12px 20px; }
+p, li { margin: 10px 0; }
+ul { padding-left: 20px; }
+.changed { color: var(--quiet); font-size: 13px; margin: 24px 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../../">Life</a><span><a href="../../security/" lang="en">English</a> <a href="../../tr/security/" lang="tr">Türkçe</a></span></nav>
+<h1>Sicherheit</h1>
+<section id="short">
+<h2>Kurz gesagt</h2>
+<div>
+<p>Life schützt deine Sachen vor allem, indem es sie nah bei dir behält: auf deinem iPhone und nirgendwo bei mir.</p>
+</div>
+</section>
+<section id="phone">
+<h2>Auf deinem iPhone</h2>
+<div>
+<p>Die Daten von Life werden im eigenen, privaten Bereich der App auf deinem iPhone gespeichert, den andere Apps nicht lesen können. Wenn dein iPhone einen Gerätecode hat, verschlüsselt iOS diesen Bereich mit einem Schlüssel, der an diesen Code gebunden ist: Nach einem Neustart deines iPhone kann nichts darin gelesen werden, bis du es entsperrst.</p>
+<p>Der beste Schutz liegt also bei dir: ein Gerätecode und Face ID oder Touch ID.</p>
+</div>
+</section>
+<section id="account">
+<h2>Kein Konto, kein Passwort</h2>
+<div>
+<p>Es gibt nichts, bei dem du dich anmelden müsstest – also kein Passwort, das gestohlen werden könnte, und kein Konto, in das jemand einbrechen könnte. Ich betreibe keinen Server, auf dem Daten von irgendwem liegen, also kann nichts von dir über mich nach außen gelangen.</p>
+</div>
+</section>
+<section id="internet">
+<h2>Im Internet</h2>
+<div>
+<p>Jede Anfrage von Life nutzt eine verschlüsselte HTTPS-Verbindung, die iOS prüft. Eine Anfrage enthält, was der Dienst für die Antwort braucht, und nichts aus deinen Notizen, deinem Tagebuch oder deinen Briefen; die Datenschutzerklärung führt jede einzeln auf. Die Anfragen von Life an die Buch-, Serien-, Film- und Reisedienste nehmen keine Cookies an, sodass ein Dienst dein iPhone nicht mithilfe eines Cookies von einer Anfrage zur nächsten wiedererkennen kann.</p>
+</div>
+</section>
+<section id="photos">
+<h2>Deine Fotos</h2>
+<div>
+<p>Ein Foto, das du für eine Seite auswählst, wird als eigene Kopie von Life gespeichert, ohne den Ort, an dem es aufgenommen wurde. Ein Foto, aus dem du einen Sticker machst, wird gar nicht aufbewahrt: nur das daraus ausgeschnittene Motiv, ebenfalls ohne den Ort. Reisepass und Abenteuer speichern, wo und wann deine Fotos aufgenommen wurden – und beim Reisepass, was jedes zeigt, ermittelt auf deinem iPhone –, nie die Fotos selbst; die bleiben in deiner Mediathek.</p>
+</div>
+</section>
+<section id="lock">
+<h2>Dein Sperrbildschirm</h2>
+<div>
+<p>Mit Life Pro erscheinen das Training, das du gerade machst, und in den letzten Stunden vor einem Ereignis mit Uhrzeit der Countdown dazu auf deinem Sperrbildschirm. Auch der Text einer Mitteilung kann dort erscheinen, und mit Life Pro auch die Widgets von Life, die du selbst dort platzierst – deine Ziele, was heute noch offen ist. Schalte die ersten beiden in Life unter „Einstellungen → Mitteilungen“ oder in den Einstellungen deines iPhone aus; ein Widget verschwindet, wenn du den Finger auf deinen Sperrbildschirm legst und es entfernst.</p>
+</div>
+</section>
+<section id="backups">
+<h2>Backups</h2>
+<div>
+<p>Die Backups deines iPhone enthalten die Daten von Life. Das iCloud-Backup wird von Apple verschlüsselt, und zwar Ende-zu-Ende, wenn du „Erweiterter Datenschutz“ aktivierst. Ein Backup auf deinem Computer ist am sichersten, wenn „Lokales Backup verschlüsseln“ aktiviert ist.</p>
+</div>
+</section>
+<section id="lost">
+<h2>Wenn dein iPhone verloren geht</h2>
+<div>
+<p>Life hat keine eigene Sperre: Was es verschlossen hält, ist der Gerätecode deines iPhone. Mit „Wo ist?“ kannst du dein iPhone aus der Ferne löschen, und die Daten von Life werden dabei mitgelöscht.</p>
+</div>
+</section>
+<section id="report">
+<h2>Ein Problem gefunden?</h2>
+<div>
+<p>Wenn du ein Sicherheitsproblem in Life findest, schreib mir bitte unter <a href="mailto:meftunbusiness@gmail.com">meftunbusiness@gmail.com</a>. Ich sehe es mir sofort an und sage dir, was ich dagegen unternommen habe.</p>
+</div>
+</section>
+<p class="changed">Zuletzt geändert am 13. Okt. 2026.</p>
+</main>
+</body>
+</html>
