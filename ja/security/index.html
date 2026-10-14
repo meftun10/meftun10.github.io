@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>セキュリティ · Life</title>
+<style>
+:root { color-scheme: light dark; --ink: #1c1c1e; --quiet: #6e6e73; --paper: #f2f2f7;
+  --card: #ffffff; --rule: #d1d1d6; --tint: #6c6c70; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #f3f3f5; --quiet: #98989f; --paper: #000000; --card: #1c1c1e;
+    --rule: #38383a; --tint: #aeaeb2; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+nav { display: flex; justify-content: space-between; gap: 16px; font-size: 15px;
+  margin-bottom: 24px; }
+nav span { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 12px; }
+a { color: inherit; text-decoration-color: var(--tint); text-underline-offset: 2px; }
+h1 { font-size: 28px; line-height: 1.2; margin: 0 0 24px; }
+h2 { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--quiet); margin: 28px 0 8px 4px; }
+section > div { background: var(--card); border-radius: 22px; padding: 12px 20px; }
+p, li { margin: 10px 0; }
+ul { padding-left: 20px; }
+.changed { color: var(--quiet); font-size: 13px; margin: 24px 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../../">Life</a><span><a href="../../security/" lang="en">English</a> <a href="../../tr/security/" lang="tr">Türkçe</a> <a href="../../de/security/" lang="de">Deutsch</a> <a href="../../es/security/" lang="es">Español</a></span></nav>
+<h1>セキュリティ</h1>
+<section id="short">
+<h2>概要</h2>
+<div>
+<p>Lifeは主に、あなたのものを身近に置いておくことで、安全を守ります。置き場所はiPhoneの中で、私の管理する場所にはどこにもありません。</p>
+</div>
+</section>
+<section id="phone">
+<h2>iPhoneの中で</h2>
+<div>
+<p>Lifeのデータは、iPhone上の、ほかのアプリからは読み取れないLife専用の領域に保存されます。iPhoneにパスコードが設定されている場合、iOSはこの領域を、パスコードと結びついた鍵で暗号化します。そのため、iPhoneを再起動したあとは、ロックを解除するまで、その中のものは何も読み取れません。</p>
+<p>ですから、いちばんの守りはあなた自身の手にあります。パスコード、そしてFace IDまたはTouch IDです。</p>
+</div>
+</section>
+<section id="account">
+<h2>アカウントもパスワードもなし</h2>
+<div>
+<p>サインインするものがないので、盗まれるパスワードも、侵入されるアカウントもありません。私は誰かのデータを保管するサーバを運用していないので、あなたのものが私のところから漏れることはありえません。</p>
+</div>
+</section>
+<section id="internet">
+<h2>インターネット上で</h2>
+<div>
+<p>Lifeが行うすべてのリクエストは、iOSが検証する暗号化されたHTTPS接続を使います。リクエストに含まれるのは、そのサービスが答えるために必要なもので、メモ、日記、手紙の内容は何も含まれません。それぞれの内容はプライバシーポリシーに記載しています。本、シリーズ、映画、旅行のサービスへのLifeの問い合わせはCookieを受け付けないため、サービスがCookieを使って、問い合わせをまたいであなたのiPhoneを識別することはできません。</p>
+</div>
+</section>
+<section id="photos">
+<h2>あなたの写真</h2>
+<div>
+<p>ページのために選んだ写真は、撮影場所を含まない、Life独自のコピーとして保存されます。ステッカーを作った写真は、まったく保存されません。保存されるのは、そこから切り抜いた被写体だけで、これにも撮影場所は含まれません。「パスポート」と「冒険」が保存するのは、写真の撮影場所と撮影日時（「パスポート」では、iPhone上で判断した、各写真に写っているものも）で、写真そのものは一切保存しません。写真は写真ライブラリに残ります。</p>
+</div>
+</section>
+<section id="lock">
+<h2>ロック画面</h2>
+<div>
+<p>Life Proでは、行っているワークアウトがロック画面に表示され、時刻が設定されたイベントの場合は、開始前の最後の数時間、そのカウントダウンも表示されます。通知の文面もロック画面に表示されることがあり、Life Proでは、あなた自身がロック画面に置いたLifeのウィジェット（目標や、今日まだ残っていること）も表示されます。ワークアウトとカウントダウン、そして通知は、Lifeの「設定 → 通知」か、iPhoneの設定でオフにできます。ウィジェットは、ロック画面を長押しして削除すれば消えます。</p>
+</div>
+</section>
+<section id="backups">
+<h2>バックアップ</h2>
+<div>
+<p>iPhoneのバックアップには、Lifeのデータも含まれます。iCloudバックアップはAppleによって暗号化され、「高度なデータ保護」をオンにするとエンドツーエンドで暗号化されます。コンピュータ上のバックアップは、「ローカルバックアップを暗号化」をオンにしておくと最も安全です。</p>
+</div>
+</section>
+<section id="lost">
+<h2>iPhoneをなくしたときは</h2>
+<div>
+<p>Lifeには独自のロックはありません。Lifeに鍵をかけているのは、iPhoneのパスコードです。「探す」を使えば、iPhoneを離れた場所から消去でき、Lifeのデータも一緒に消去されます。</p>
+</div>
+</section>
+<section id="report">
+<h2>問題を見つけたときは</h2>
+<div>
+<p>Lifeにセキュリティ上の問題を見つけたときは、<a href="mailto:meftunbusiness@gmail.com">meftunbusiness@gmail.com</a>まで連絡してください。すぐに確認して、どう対応したかを連絡します。</p>
+</div>
+</section>
+<p class="changed">最終更新日：2026年10月13日</p>
+</main>
+</body>
+</html>
