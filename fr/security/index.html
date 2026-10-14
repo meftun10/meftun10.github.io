@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sécurité · Life</title>
+<style>
+:root { color-scheme: light dark; --ink: #1c1c1e; --quiet: #6e6e73; --paper: #f2f2f7;
+  --card: #ffffff; --rule: #d1d1d6; --tint: #6c6c70; }
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #f3f3f5; --quiet: #98989f; --paper: #000000; --card: #1c1c1e;
+    --rule: #38383a; --tint: #aeaeb2; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 64px; }
+nav { display: flex; justify-content: space-between; gap: 16px; font-size: 15px;
+  margin-bottom: 24px; }
+nav span { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 12px; }
+a { color: inherit; text-decoration-color: var(--tint); text-underline-offset: 2px; }
+h1 { font-size: 28px; line-height: 1.2; margin: 0 0 24px; }
+h2 { font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--quiet); margin: 28px 0 8px 4px; }
+section > div { background: var(--card); border-radius: 22px; padding: 12px 20px; }
+p, li { margin: 10px 0; }
+ul { padding-left: 20px; }
+.changed { color: var(--quiet); font-size: 13px; margin: 24px 4px 0; }
+</style>
+</head>
+<body>
+<main>
+<nav><a href="../../">Life</a><span><a href="../../security/" lang="en">English</a> <a href="../../tr/security/" lang="tr">Türkçe</a> <a href="../../de/security/" lang="de">Deutsch</a> <a href="../../es/security/" lang="es">Español</a> <a href="../../ja/security/" lang="ja">日本語</a></span></nav>
+<h1>Sécurité</h1>
+<section id="short">
+<h2>En bref</h2>
+<div>
+<p>Life protège tes affaires surtout en les gardant près de toi : sur ton iPhone, et nulle part chez moi.</p>
+</div>
+</section>
+<section id="phone">
+<h2>Sur ton iPhone</h2>
+<div>
+<p>Les données de Life sont stockées dans l’espace privé propre à l’app sur ton iPhone, que les autres apps ne peuvent pas lire. Quand ton téléphone a un code d’accès, iOS chiffre cet espace avec une clé liée à ce code : après le redémarrage de ton téléphone, rien dans cet espace ne peut être lu tant que tu ne l’as pas déverrouillé.</p>
+<p>La meilleure protection, c’est donc la tienne : un code d’accès, et Face ID ou Touch ID.</p>
+</div>
+</section>
+<section id="account">
+<h2>Pas de compte, pas de mot de passe</h2>
+<div>
+<p>Il n’y a rien à quoi te connecter, donc aucun mot de passe à voler et aucun compte à pirater. Je ne gère aucun serveur qui contienne les données de qui que ce soit, si bien que rien de ce qui est à toi ne peut fuiter de chez moi.</p>
+</div>
+</section>
+<section id="internet">
+<h2>Sur Internet</h2>
+<div>
+<p>Chaque requête de Life utilise une connexion HTTPS chiffrée, vérifiée par iOS. Une requête contient ce dont le service a besoin pour répondre, et rien de tes notes, de ton journal ou de tes lettres ; la Politique de confidentialité les énumère une par une. Les questions que Life pose aux services de livres, de séries, de films et de voyage n’acceptent aucun cookie : un service ne peut donc pas s’en servir pour reconnaître ton téléphone d’une question à l’autre.</p>
+</div>
+</section>
+<section id="photos">
+<h2>Tes photos</h2>
+<div>
+<p>Une photo que tu choisis pour une page est enregistrée sous forme de copie propre à Life, sans le lieu où elle a été prise. Une photo dont tu fais un autocollant n’est pas conservée du tout : seul son sujet détouré l’est, lui aussi sans le lieu. Passeport et Aventures conservent où et quand tes photos ont été prises — et, pour Passeport, ce que montre chacune, déterminé sur ton téléphone —, jamais les photos elles-mêmes ; celles-ci restent dans ta photothèque.</p>
+</div>
+</section>
+<section id="lock">
+<h2>Ton écran verrouillé</h2>
+<div>
+<p>Avec Life Pro, l’entraînement que tu es en train de faire et le compte à rebours jusqu’à un événement prévu à une heure précise, pendant les dernières heures avant celui-ci, s’affichent sur ton écran verrouillé. Le texte d’une notification peut aussi s’y afficher, tout comme, avec Life Pro, les widgets de Life que tu y places toi-même — tes objectifs, ce qu’il te reste à faire aujourd’hui. Désactive les deux premiers dans Life, sous Réglages → Notifications, ou dans les Réglages de ton téléphone ; un widget s’en va quand tu touches longuement ton écran verrouillé et que tu l’en retires.</p>
+</div>
+</section>
+<section id="backups">
+<h2>Sauvegardes</h2>
+<div>
+<p>Les sauvegardes de ton iPhone contiennent les données de Life. La sauvegarde iCloud est chiffrée par Apple, et de bout en bout si tu actives la Protection avancée des données. Une sauvegarde sur ton ordinateur est la plus sûre quand l’option « Chiffrer la sauvegarde locale » est activée.</p>
+</div>
+</section>
+<section id="lost">
+<h2>Si ton téléphone est perdu</h2>
+<div>
+<p>Life n’a pas de verrou à lui : c’est le code d’accès de ton téléphone qui le garde fermé. Avec l’app Localiser, tu peux effacer ton iPhone à distance, et les données de Life sont effacées avec lui.</p>
+</div>
+</section>
+<section id="report">
+<h2>Tu as trouvé un problème ?</h2>
+<div>
+<p>Si tu trouves un problème de sécurité dans Life, écris-moi à <a href="mailto:meftunbusiness@gmail.com">meftunbusiness@gmail.com</a>, s’il te plaît. Je l’examinerai tout de suite et je te dirai ce que j’ai fait pour y remédier.</p>
+</div>
+</section>
+<p class="changed">Dernière modification : 13 oct. 2026.</p>
+</main>
+</body>
+</html>
